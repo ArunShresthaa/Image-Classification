@@ -562,6 +562,7 @@ plt.show()
 
 ## Training Metrics
 
+```json
 {
     "accuracy_score": 0.9569333333333333,
     "precision_score": 0.9573784468447064,
@@ -572,6 +573,7 @@ plt.show()
     "inference_time": 23.471702575683594,
     "model_parameters_count": 11189337
 }
+```
 
 To visualize the performance of the model over the training process, refer to the following plots for training and validation loss and accuracy.
 
