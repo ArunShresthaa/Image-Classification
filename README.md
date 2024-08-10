@@ -78,8 +78,6 @@ The model is a variant of ResNet customized for this task. The `BasicBlock` and 
 
 
 
-
-
 ```python
 
 class BasicBlock(nn.Module):
@@ -561,3 +559,22 @@ plt.legend()
 plt.show()
 
 ```
+
+## Training Metrics
+
+{
+    "accuracy_score": 0.9569333333333333,
+    "precision_score": 0.9573784468447064,
+    "recall_score": 0.9569333333333334,
+    "f1_score": 0.9569104877550209,
+    "roc_auc_score": 0.9991433518518518,
+    "CrossEntropyLoss": 0.15825016796588898,
+    "inference_time": 23.471702575683594,
+    "model_parameters_count": 11189337
+}
+
+To visualize the performance of the model over the training process, refer to the following plots for training and validation loss and accuracy.
+
+### Training and Validation Loss and Accuracy
+
+![Training and Validation Loss](./img/lossAcc.png)
