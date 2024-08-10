@@ -1,5 +1,3 @@
-```markdown
-
 # Deep Learning Model Training in PyTorch
 
 
@@ -567,5 +565,3 @@ plt.show()
 
 
 This markdown document provides a structured description of your training code. You can further customize it by adding more sections or details as needed.
-
-```
